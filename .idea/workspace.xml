@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16da3795-2fa3-4cae-ac40-703d78cbd408" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streaming/DivideStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/streaming/Main.class" afterDir="false" />
-    </list>
+    <list default="true" id="16da3795-2fa3-4cae-ac40-703d78cbd408" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,16 +20,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "CLOSED"
+      &quot;state&quot;: &quot;CLOSED&quot;
     }
   ],
-  "lastFilter": {
-    "state": "CLOSED"
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;CLOSED&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -77,14 +71,16 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="DivideStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.example.streaming.DivideStream" />
       <module name="flink" />
+      <option name="PROGRAM_PARAMETERS" value="--nacos.serverAddr http://10.173.28.124:8848 --nacos.dataId application-prod.yaml --nacos.group PROD --nacos.username nacos --nacos.password nacos --nacos.namespace 76938fcd-b8b1-4a2b-9e67-2a613f4cf080 --kafka.broker 10.173.28.35:9092,10.173.28.36:9092,10.173.28.37:9092 --kafka.ods.vcenter.topic ods_vcenter_topic_1 --kafka.vcenter.offset latest-offset --kafka.ods.vcenter.group.id ods_vcenter_group_id --kafka.dwd.vcenter.topic dwd_widening_vcenter_topic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.streaming.*" />
@@ -113,6 +109,7 @@
       <workItem from="1703843320646" duration="3637000" />
       <workItem from="1703853616502" duration="897000" />
       <workItem from="1703855069517" duration="6662000" />
+      <workItem from="1703868417418" duration="5412000" />
     </task>
     <servers />
   </component>
