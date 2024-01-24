@@ -1,4 +1,4 @@
-package org.example.streaming;
+package org.example.streaming.divide;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
