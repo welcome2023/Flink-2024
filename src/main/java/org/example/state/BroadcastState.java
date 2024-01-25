@@ -1,4 +1,4 @@
-﻿package org.example.state;
+package org.example.state;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
