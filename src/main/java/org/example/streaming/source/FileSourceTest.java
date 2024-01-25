@@ -18,17 +18,13 @@ public class FileSourceTest {
 
         FileSource<String> fileSource = FileSource.forRecordStreamFormat(
                 new TextLineInputFormat(),
-                new Path("src/file/divedeStream")
+//                new Path("src/file/divedeStream")
+                new Path("hdfs://cdh150.local.com:8020/tmp/divedeStream")
         ).build();
 
         DataStreamSource<String> myFileStream = env.fromSource(fileSource, WatermarkStrategy.noWatermarks(), "myFile");
 
         myFileStream.print();
-
-
-        //                new Path("hdfs://hadoop102:8020/flinklogs")
-
-
         env.execute();
 
     }
